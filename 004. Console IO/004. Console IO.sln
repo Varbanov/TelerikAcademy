@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ThreeIntsSum", "01.ThreeIntsSum\01.ThreeIntsSum.csproj", "{3CBB9F1D-30D8-41FA-9582-E1D4E354CD22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CircleAreaPerimeterCalc", "02.CircleAreaPerimeterCalc\02.CircleAreaPerimeterCalc.csproj", "{DDFB5016-B015-47C3-B31A-A81097116BE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CBB9F1D-30D8-41FA-9582-E1D4E354CD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBB9F1D-30D8-41FA-9582-E1D4E354CD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBB9F1D-30D8-41FA-9582-E1D4E354CD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBB9F1D-30D8-41FA-9582-E1D4E354CD22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFB5016-B015-47C3-B31A-A81097116BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFB5016-B015-47C3-B31A-A81097116BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFB5016-B015-47C3-B31A-A81097116BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFB5016-B015-47C3-B31A-A81097116BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

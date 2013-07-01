@@ -18,7 +18,7 @@ class MaxIncreasingSequence
         {
             do
             {
-                Console.WriteLine("Please enter element [{0}]: ", i);
+                Console.Write("Please enter element [{0}]: ", i);
             } while (!int.TryParse(Console.ReadLine(), out arr[i]));
         }
 

@@ -23,12 +23,12 @@ class CompareTwoArrays
         {
             do
 	        {
-	                Console.WriteLine("Please enter integer {0} for FIRST array: ", i);   
+	                Console.Write("Please enter integer {0} for FIRST array: ", i);   
 	        } while (!int.TryParse(Console.ReadLine(), out firstArray[i]));
 
             do
             {
-                Console.WriteLine("Please enter integer {0} for SECOND array: ", i);
+                Console.Write("Please enter integer {0} for SECOND array: ", i);
             } while (!int.TryParse(Console.ReadLine(), out secondArray[i]));
 
             if (firstArray[i] != secondArray[i])

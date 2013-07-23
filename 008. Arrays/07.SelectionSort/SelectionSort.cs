@@ -54,15 +54,34 @@ class SelectionSort
                 Console.Write("Please enter element [{0}]: ", i);
             } while (!int.TryParse(Console.ReadLine(), out arr[i]));
         }
-
         //solution
-        FindSmallest(ref arr, 0);
-
-        //print sorted array
+        int smallestIndex = -1;
+        for (int i = 0; i < arr.Length - 1; i++)
+        {
+            int smallest = int.MaxValue;
+            for (int j = i; j < arr.Length; j++)
+            {
+                if (arr[j] <= smallest)
+                {
+                    smallest = arr[j];
+                    smallestIndex = j;
+                }
+            }
+            SwapElements(ref arr[i], ref arr[smallestIndex]);
+        }
+        //output
         for (int i = 0; i < arr.Length; i++)
         {
             Console.Write("{0} ", arr[i]);
         }
+        Console.WriteLine();
+        ////interesting solution using resursion
+        //FindSmallest(ref arr, 0);
+        ////print sorted array
+        //for (int i = 0; i < arr.Length; i++)
+        //{
+        //    Console.Write("{0} ", arr[i]);
+        //}
     }
 }
 

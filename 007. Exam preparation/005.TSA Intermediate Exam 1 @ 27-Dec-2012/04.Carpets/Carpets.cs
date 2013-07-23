@@ -52,7 +52,7 @@ class Carpets
 
         //LOWER HALF
 
-        // if(...) = if the first line of the lower half is odd or even, i.e. if odd -> first line inner space is two, first line + 2 inner space = 2, etc.
+        // if(...) = if the first line of the lower half is odd or even, i.e. if odd -> first line's inner space is two, first line + 2 inner space = 2, etc.
         if (((n / 2) + 1) % 2 != 0) 
         {
             for (int rows = (n / 2) + 1, outerDot = 0; rows <= n; rows++, outerDot++)

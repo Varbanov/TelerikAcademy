@@ -4,7 +4,7 @@ using System.Text;
 
 class PrintOddLinesOfFile
 {
-    //Write a program that reads a text file and prints on the console its odd lines.
+    //01. Write a program that reads a text file and prints on the console its odd lines.
 
     static void PrintOddLines(StreamReader reader)
     {

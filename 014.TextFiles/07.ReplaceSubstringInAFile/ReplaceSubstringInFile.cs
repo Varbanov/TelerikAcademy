@@ -29,7 +29,7 @@ class ReplaceSubstringInFile
     static void Main()
     {
         ReplaceStartWithFinish(@"..\..\input.txt", @"..\..\output.txt");
-        //to replace the two files and obtain the result in the input file, please uncomment the next line
+        //to replace the two files and obtain the result in the input.txt file, uncomment the next line
         //File.Replace(@"..\..\output.txt", @"..\..\input.txt", @"..\..\last_input.txt");
     }
 }

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TimberYardSoft.ClassStructure.IdGenerator">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAIAAgA=</HashCode>
+      <FileName>ClassStructure\IdGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.TimberYard">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAEAAEAAEAAIQAAAAAAAAAAAAGIAAAAAA=</HashCode>
+      <FileName>ClassStructure\TimberYard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.Firm">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgCAABIAAAAAAAAAAABSQgAAAkAAAQgAAAAAAQAAA=</HashCode>
+      <FileName>ClassStructure\Firm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.Lot">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEDAAAAAQAAgAAMAAAAAAAAAAAAAAAgAAAAIAAAABA=</HashCode>
+      <FileName>ClassStructure\Lot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.BukLot" Collapsed="true">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\BukLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.DubLot" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\DubLot.cs</FileName>
+      <NewMemberFileName>ClassStructure\BukLot.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.YavorLot" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\YavorLot.cs</FileName>
+      <NewMemberFileName>ClassStructure\BukLot.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.YasenLot" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\YasenLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.AvailabilityChangeJournal">
+    <Position X="15.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEIAAAAAgAECAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\AvailabilityChangeJournal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.AvailabilityJournalItem">
+    <Position X="15.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAEAAAAAAAAAAAAAAAAAUAAIABAAAA=</HashCode>
+      <FileName>ClassStructure\AvailabilityJournalItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.Order">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAQAEAAAAIAAAAABAgAAAAAAAAAAGAAIAAAA=</HashCode>
+      <FileName>ClassStructure\Order.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.YardChangedEventArgs">
+    <Position X="11" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAgBAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\YardChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.OrderPiecesException&lt;T&gt;">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIAAAAAA=</HashCode>
+      <FileName>ClassStructure\OrderPiecesException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.AddLotWindow">
+    <Position X="19" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAQAABAAAAAAAAAAAEAAAAAAAAEAAA=</HashCode>
+      <FileName>AddLotWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.AddYardWindow">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddYardWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.FirmYardAddedEventArgs">
+    <Position X="15" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\FirmYardAddedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.MainWindow">
+    <Position X="17.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HAEgCAAgAUIAAAQAQQBAAjAAEAAABAAEEAQAAAIAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TimberYardSoft.ClassStructure.LotSize">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQEQEAAAEBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\LotSize.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="TimberYardSoft.ClassStructure.ISerializeable">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\ISerializeable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TimberYardSoft.ClassStructure.IReportable">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\IReportable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TimberYardSoft.ClassStructure.Wood">
+    <Position X="5.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\Wood.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TimberYardSoft.ClassStructure.ChangeType">
+    <Position X="10.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\ChangeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="TimberYardSoft.ClassStructure.YardChangedEventHandler">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ClassStructure\YardChangedEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="TimberYardSoft.ClassStructure.FirmYardsChangedEventHandler">
+    <Position X="13" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ClassStructure\FirmYardAddedEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

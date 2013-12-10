@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TimberYardSoft.ClassStructure.Lath">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAMAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\Lath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.RawTimber">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAMAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\RawTimber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.TimberProcessingDecorator">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAMAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\TimberProcessingDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.TimberRoot">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAMAAAAAYAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\TimberRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimberYardSoft.ClassStructure.TimberYard">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAIAAAAAAAAAAAAAAAAAAAAAAACAAAAAAgAAAAA=</HashCode>
+      <FileName>ClassStructure\TimberYard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TimberYardSoft.ClassStructure.Dimension">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAQEAAAEBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassStructure\Dimension.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

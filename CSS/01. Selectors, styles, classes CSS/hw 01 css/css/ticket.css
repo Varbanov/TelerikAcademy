@@ -1,0 +1,49 @@
+﻿/*ticket*/
+
+body {
+    background: #d7d1d1;
+}
+
+thead th{
+    font-family: Arial;
+    font-weight:normal;
+    text-align:left;
+}
+
+tbody th {
+    font-family:Arial;
+    font-size:small;
+    font-weight: normal;
+    font-style:italic;
+    text-align:left;
+    vertical-align:top;   
+    color: white;
+}
+
+tbody td {
+    font-family: Arial;
+    font-size: small;
+}
+
+.beige {
+    color: #e0c28b;
+}
+.gray {
+    color: #808080;
+}
+
+#redred {
+    color: #f00;
+}
+
+#orange {
+    color: #de723c;
+}
+#col1 {
+    width: 120px;
+}
+#dotted:before {
+    content: '\25CF';
+    font-size: 1.4em;
+    color: #5ced05;
+}

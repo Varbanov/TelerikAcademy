@@ -1,0 +1,21 @@
+﻿/*first task*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    color: #0094ff;
+    font-size: 14px;
+}
+
+div:first-letter {
+    font-size: 32px;
+    font-family:'Edwardian Script ITC' Arial 'Times New Roman';
+    line-height: 200%;
+}
+
+div:first-line {
+    font-weight: bold;
+}

@@ -1,0 +1,15 @@
+﻿/*nested divs*/
+
+body {
+     width:1000px;
+}
+
+div {
+    background-color: black;
+    border-radius: 55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    padding-right: 3%;
+}
+

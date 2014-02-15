@@ -1,0 +1,153 @@
+﻿/*calculator*/
+*:not(body)  {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Consolas, Arial;
+    font-size: 13px;
+}
+
+#mainForm {
+    background-color: #bbdbfb;
+    width: 450px;
+    height: 395px;
+    border-radius: 4px;
+    vertical-align:middle;
+}
+#upperFrame {
+    vertical-align: middle;
+}
+#icon {
+    height: 18px;
+    vertical-align: middle;
+    margin: 3px;
+}
+#buttons {
+    float:right;
+    margin-right:3px;
+}
+#title {
+    display: inline-block;
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 4px;
+    vertical-align:middle;
+}
+#innerForm {
+    background-color: #dce6f2;
+    margin: 4px;
+    height: 91%;
+    border-radius: 2px;
+    border-color: #727e8c;
+    border-width: 1px;
+    border-style:  outset solid;
+}
+.inline {
+    display: inline-block;
+}
+#view{
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+#edit, #help {
+    margin-left: 13px;
+}
+#view:first-letter, #edit:first-letter, #help:first-letter{
+    text-decoration:underline;
+}
+#line {
+    border-top-color: #dae0f0;
+}
+#innerForm > div:not(:first-of-type) {
+    margin: 10px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b3bcc7;
+    border-radius: 3px;
+}
+table {
+    margin: 10px;
+
+}
+#result {
+    background: -webkit-linear-gradient(#E6EFFB, #FFFFFF);
+    background: -moz-linear-gradient(#E6EFFB, #FFFFFF);
+    background: -o-linear-gradient(#E6EFFB, #FFFFFF);
+    background: linear-gradient(#E6EFFB, #FFFFFF);
+    height: 50px;
+    border-style: solid outset;
+    border-width: 1px;
+    border-color: #b3bcc7;
+    border-radius: 3px;
+}
+#resultText {
+    float: right;
+    margin-top: 4%;
+    margin-right: 1%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #2c2117;
+}
+#binary {
+    padding: 4px;
+    height: 60px;
+}
+#binary li {
+    list-style: none;
+    color: #353a70;
+    float:left;
+    margin-right: 23px;
+}
+.binaryPosition li:first-child {
+    width: 190px;
+}
+.binaryPosition li:nth-child(2) {
+    width: 130px;
+}
+
+table{
+    width: 99%;
+}
+button {
+    font-size: 12px;
+    line-height: 25px;
+    width: 30px;
+    border-radius: 2px;
+    border-width: 1px;
+    background: linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%)
+}
+button:hover, button:focus {
+    border-color: #F5D50F;
+    background: -webkit-linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+    background: -moz-linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+    background: -o-linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+    background: linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+}
+input[type=radio] {
+    color: #333;
+}
+.opacity {
+    background: #dce6f2;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b3bcc7;
+}
+#zero {
+    width: 90%;
+}
+#equal {
+    height: 100%;
+    padding: 0px;
+}
+.numbers {
+    background: linear-gradient(#F7FBFF 0%, #EDF3F8 49%, #E7EDF5 50%, #F3FBFF 100%)
+}
+.bordered {
+    border-width: 1px;
+    border-style: solid;
+    border-color:#b3bcc7;
+    border-radius: 3px;
+}
+

@@ -1,0 +1,55 @@
+﻿body, legend, fieldset, img, span, div, header, aside, p{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    padding: 5px;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+legend {
+    text-align:center;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+fieldset {
+    padding: 1%;
+    display:inline-block;
+    width: 180px;
+}
+img {
+    width: 90px;
+    float: left;
+    margin-bottom: 5%;
+    margin-right: 5px;
+}
+
+span {
+    float: right;
+}
+div {
+    border: 1px solid;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    width:395px;
+    display: inline-block;
+}
+header {
+    margin-bottom: 10px;
+}
+aside {
+    display: inline-block;
+    width:150px;
+}
+.leftalign {
+    float: right;
+}

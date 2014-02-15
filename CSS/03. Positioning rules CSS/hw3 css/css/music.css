@@ -1,0 +1,65 @@
+﻿/*music categories*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #eee;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+section {
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #808080;
+    background-color: white;
+    width: 500px;
+    overflow: auto;
+}
+
+section img {
+    float: left;
+    margin-right: 15px;
+    width: 200px;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+section > div {
+}
+
+section div div {
+    float:right;
+    margin-top: 30px;
+    position:relative;
+}
+
+a {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 15px;
+    background-color: #d70405;
+    border-right:2px solid #7d0000;
+    border-top: 2px solid #ea8a8a;
+    border-bottom: 2px solid #6a0b0d;
+    border-left: 2px solid #c88889;
+    color: white;
+    text-decoration:none;
+    box-shadow: inset 15px 0px #8a0000;
+}

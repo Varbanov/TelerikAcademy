@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div>03. Write a script that finds the max and min number from a sequence of numbers</div>
+    <div>
+        Please enter the sequence of numbers, separated by " " (white space):
+        <input type="text" id="input1" />
+        <input type="button" value="Check" onclick='findMax(document.getElementById("input1").value)' />
+    </div>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function findMax(n) {
+            n = n.split(' ');
+            var min = parseInt(n[0]);
+            var max = parseInt(n[0]);
+            for (var i = 0; i < n.length; i++) {
+                if (parseInt(n[i]) > max) {
+                    max = n[i];
+                }
+                if (parseInt(n[i]) < min) {
+                    min = n[i];
+                }
+            }
+            jsConsole.writeLine("min: " + min);
+            jsConsole.writeLine("max: " + max);
+
+        }
+    </script>
+</body>
+</html>

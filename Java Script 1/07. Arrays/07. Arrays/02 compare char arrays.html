@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div>02. Write a script that compares two char arrays lexicographically (letter by letter).</div>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var first = new Array('a', 'b', 'c', 'd');
+        var second = new Array('a', 'b', 'c', 'd');
+
+        var minLength = first.length < second.length ? first.length : second.length;
+        var firstIsFirst = false;
+        var areEqualToMinLength = true;
+
+        for (var i = 0; i < minLength; i++) {
+            if (first[i].toLowerCase() < second[i].toLowerCase()) {
+                firstIsFirst = true;
+                areEqualToMinLength = false;
+                break;
+            }
+            else if (first[i].toLowerCase() > second[i].toLowerCase()) {
+                areEqualToMinLength = false;
+                break;
+            }
+        }
+
+        if (areEqualToMinLength) {
+            first.length < second.length ? firstIsFirst = true : firstIsFirst = false;
+        }
+
+        if (firstIsFirst) {
+            jsConsole.writeLine("Lexicographically first is  : " + first.join(" "));
+            jsConsole.writeLine("Lexicographically second is : " + second.join(" "));
+        }
+        else {
+            jsConsole.writeLine("Lexicographically first is : " + second.join(" "));
+            jsConsole.writeLine("Lexicographically second is  : " + first.join(" "));
+        }
+    </script>
+</body>
+</html>

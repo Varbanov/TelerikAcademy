@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div>01. Write an if statement that examines two integer variables and exchanges their values if the first one is greater than the second one.</div>
+    <div>
+        Please enter two integers:
+        <input type="text" id="input1" />
+        <input type="text" id="input2" />
+        <input type="button" value="Check" onclick='checkIntegers(document.getElementById("input1").value, document.getElementById("input2").value)' />
+    </div>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function checkIntegers(a, b) {
+            jsConsole.writeLine("first int: " + a + ", second int: " + b);
+            if (a > b) {
+                var c = a;
+                a = b;
+                b = c;
+            }
+            jsConsole.writeLine("Result: first int: " + a + ", second int: " + b);
+        }
+    </script>
+</body>
+</html>

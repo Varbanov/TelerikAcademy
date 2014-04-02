@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <label for="input2">02. Write a boolean expression that checks for given integer if it can be divided (without remainder) by 7 and 5 in the same time:</label>
+        <input type="text" id="input2" />
+        <input type="button" value="Check" onclick='checkIfDivisible(document.getElementById("input2").value)' />
+    </div>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function checkIfDivisible(num) {
+            num = parseInt(num);
+            if (num % 35 == 0) {
+                jsConsole.writeLine("The number " + num + " can be divided by 5 and 7");
+            }
+            else {
+                jsConsole.writeLine("The number " + num + " cannot be divided by 5 and 7")
+            }
+        }
+    </script>
+</body>
+</html>

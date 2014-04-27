@@ -1,0 +1,105 @@
+﻿html, body, h1, h2, div, ul, header, nav, li, article, p, aside, hr, form, input {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+
+#wrapper {
+    width: 960px;
+    margin: 0;
+    padding: 0;
+
+    & > header {
+        background-image: url(template/images/header-bg.png);
+        padding-left: 20px;
+        padding-right: 25px;
+        margin-left: 5px;
+        height: 95px;
+        color: #eeffd5;
+
+        #title {
+            float: left;
+
+            h1 {
+                font-size: 2.1em;
+                margin-top: 20px;
+            }
+
+            h2 {
+                font-size: 0.8em;
+                color: #bdb79b;
+            }
+        }
+
+        #nav {
+            float: right;
+
+            ul {
+                list-style-type: none;
+                margin-top: 45px;
+
+                li {
+                    color: #d66700;
+                    display: inline-block;
+                    font-size: 1.1em;
+                    font-weight: bold;
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+
+    #line {
+        height: 5px;
+        margin-left: 5px;
+        background-color: #39d414;
+    }
+
+    #content {
+        font-size: 14px;
+        padding-left: 5px;
+        width: 760px;
+        float: left;
+
+        h1 {
+            font-size: 30px;
+            color: #59770e;
+            margin-top: 20px;
+        }
+
+        article {
+            margin-top: 20px;
+            color: #88888a;
+
+            p {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    aside {
+        float: right;
+        color: #59770e;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 0.9em;
+        width: 195px;
+        text-transform: uppercase;
+
+        hr {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+.clear {
+    clear: both;
+}

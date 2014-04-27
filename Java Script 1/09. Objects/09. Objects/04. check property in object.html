@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        04. Write a function that checks if a given object contains a given property. var obj  = …; var hasProp = hasProperty(obj,"length");
+    </div>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var student = { name: "Pesho", company: "Telerik" };
+        var hasPropStudent = hasProperty(student, "name");
+        jsConsole.writeLine("The student has property 'name': " + hasPropStudent);
+
+        var car = { brand: "Toyota", year: 2009 };
+        var hasPropCar = hasProperty(car, "name");
+        jsConsole.writeLine("The car has property 'name': " + hasPropCar);
+
+        function hasProperty(obj, prop) {
+            var res = obj.hasOwnProperty(prop) ? true : false;
+            return res;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div>first div 04. Write a function to count the number of divs on the web page</div>
+    <div>second div</div>
+    <div>third div</div>
+    <div id="js-console"> <p>fourth div</p></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function countDivs() {
+            var divs = document.getElementsByTagName("div");
+            jsConsole.writeLine("Number of divs in the document: " + divs.length);
+        }
+        countDivs();
+    </script>
+</body>
+</html>

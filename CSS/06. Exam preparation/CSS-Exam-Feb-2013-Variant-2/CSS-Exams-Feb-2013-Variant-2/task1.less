@@ -1,0 +1,87 @@
+﻿html, body, ul, li, a, div, h1, p, table, td, th, thead, tr, tbody {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+
+    .accordion {
+        list-style-type: none;
+
+        & > li {
+            width: 365px;
+            border: 1px solid;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+            background: linear-gradient(to bottom, #eeeeee 10%, #b6b6b6 30%,#aaaaaa 100%);
+            padding-right: 15px;
+            padding-left: 15px;
+
+            &:hover {
+                background: none;
+                background-color: #aaaaaa;
+            }
+
+
+            & > a {
+                text-decoration: none;
+                color: #444444;
+            }
+
+            .accordion-content {
+                display: none;
+            }
+        }
+
+        li.current {
+            .accordion-content {
+                display: block;
+                text-align: left;
+                font-weight: normal;
+                font-size: 0.8em;
+                color: #444444;
+                opacity: 0.8;
+                padding-bottom: 5px;
+
+                & > h1 {
+                    text-align: center;
+                    padding-top: 10px;
+                    font-size: 1.6em;
+                }
+
+                & > p {
+                    text-align: justify;
+                }
+
+                & > table {
+                    border: 1px solid;
+                    border-collapse: collapse;
+                    margin: 5px;
+                    margin-top: 20px;
+                    font-size: 18px;
+
+                    th, td {
+                        border: 1px solid;
+                        border-color: black;
+                        background: linear-gradient(to bottom, #ececec 0%,#8c8c8c 100%);
+                        width: 90px;
+                        text-align: center;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                    }
+
+                    td {
+                        color:white;
+                    }
+                }
+            }
+        }
+    }
+}

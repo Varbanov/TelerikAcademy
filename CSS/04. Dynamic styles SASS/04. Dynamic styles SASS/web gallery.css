@@ -1,0 +1,23 @@
+div, ul, li, img, input {
+  margin: 0px;
+  padding: 0px; }
+
+ul {
+  list-style-type: none; }
+  ul li {
+    display: inline-block; }
+    ul li img {
+      display: inline;
+      width: 150px;
+      height: 100px; }
+
+div input {
+  display: none; }
+  div input:checked + img {
+    opacity: 1; }
+div img {
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  opacity: 0; }
+

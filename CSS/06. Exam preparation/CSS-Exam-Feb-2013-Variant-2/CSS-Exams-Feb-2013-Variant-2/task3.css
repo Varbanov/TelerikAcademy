@@ -1,0 +1,81 @@
+﻿html,
+body,
+form,
+input,
+fieldset,
+legend,
+button {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+  font-size: 16px;
+  width: 960px;
+}
+#wrapper form {
+  background: linear-gradient(to bottom, #6ed7ff 0%, #8bfefb 100%);
+  /* W3C */
+  width: 380px;
+  height: 330px;
+  margin: 25px;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 10px 15px;
+  text-align: right;
+}
+#wrapper form button,
+#wrapper form input[type=reset] {
+  background: linear-gradient(to bottom, #3cc6fe 0%, #8bfefb 100%);
+  /* W3C */
+  border: none;
+  text-align: center;
+  border-bottom: 1px solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  height: 35px;
+  width: 120px;
+  font-size: 1.1em;
+}
+#wrapper form button:first-of-type,
+#wrapper form input[type=reset]:first-of-type {
+  width: 140px;
+}
+#wrapper form button:hover,
+#wrapper form input[type=reset]:hover {
+  background: none;
+  background-color: #9be1ff;
+}
+#wrapper form fieldset {
+  font-size: 16px;
+  border: 3px solid;
+  border-radius: 5px;
+  text-align: right;
+  padding: 5px 15px;
+}
+#wrapper form fieldset:last-of-type {
+  margin-bottom: 5px;
+}
+#wrapper form fieldset legend {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.3em;
+  padding: 0px 15px;
+  padding-bottom: 0;
+}
+#wrapper form fieldset input {
+  width: 165px;
+  border: 1px solid #008fce;
+  background: linear-gradient(to bottom, #69d2ff 0%, #8bfefb 100%);
+  /* W3C */
+  border-radius: 5px;
+  height: 2em;
+  margin-bottom: 2px;
+  padding-left: 15px;
+}
+#wrapper form fieldset input[type=number] {
+  width: 40px;
+  padding-left: 5px;
+}
+/*# sourceMappingURL=task3.css.map */

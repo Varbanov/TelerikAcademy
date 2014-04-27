@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div>06. Write a function that checks if the element at given position in given array of integers is bigger than its two neighbors (when such exist).</div>
+    <div>
+        Please enter an array of integers separated by whitespace:
+        <input type="text" id="input1" />
+        Please enter array index:
+        <input type="text" id="input2" />
+        <input type="button" value="Check" onclick='onCheckBtnClick(document.getElementById("input1").value, document.getElementById("input2").value)' />
+    </div>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function onCheckBtnClick(inputArr, index) {
+            var arr = inputArr.split(' ');
+            checkNeighbours(arr, index);
+        }
+
+        function checkNeighbours(arr, index)
+        {
+            index = parseInt(index);
+            if (arr[index - 1] && arr[index + 1]) {
+                if (arr[index] > arr[index - 1] && arr[index] > arr[index + 1]) {
+                    jsConsole.writeLine("The element at position " + index + " is bigger than its neighbours");
+                }
+                else {
+                    jsConsole.writeLine("The element at position " + index + " is NOT bigger than its neighbours");
+                }
+            }
+            else {
+                jsConsole.writeLine("The element at position " + index + " does not have two neighbours")
+            }
+        }
+    </script>
+</body>
+</html>

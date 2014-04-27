@@ -1,0 +1,103 @@
+﻿html,
+body,
+h1,
+h2,
+div,
+ul,
+header,
+nav,
+li,
+article,
+p,
+aside,
+hr,
+form,
+input {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+#wrapper {
+  width: 960px;
+  margin: 0;
+  padding: 0;
+}
+#wrapper > header {
+  background-image: url(template/images/header-bg.png);
+  padding-left: 20px;
+  padding-right: 25px;
+  margin-left: 5px;
+  height: 95px;
+  color: #eeffd5;
+}
+#wrapper > header #title {
+  float: left;
+}
+#wrapper > header #title h1 {
+  font-size: 2.1em;
+  margin-top: 20px;
+}
+#wrapper > header #title h2 {
+  font-size: 0.8em;
+  color: #bdb79b;
+}
+#wrapper > header #nav {
+  float: right;
+}
+#wrapper > header #nav ul {
+  list-style-type: none;
+  margin-top: 45px;
+}
+#wrapper > header #nav ul li {
+  color: #d66700;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-left: 15px;
+}
+#wrapper #line {
+  height: 5px;
+  margin-left: 5px;
+  background-color: #39d414;
+}
+#wrapper #content {
+  font-size: 14px;
+  padding-left: 5px;
+  width: 760px;
+  float: left;
+}
+#wrapper #content h1 {
+  font-size: 30px;
+  color: #59770e;
+  margin-top: 20px;
+}
+#wrapper #content article {
+  margin-top: 20px;
+  color: #88888a;
+}
+#wrapper #content article p {
+  margin-bottom: 15px;
+}
+#wrapper aside {
+  float: right;
+  color: #59770e;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 0.9em;
+  width: 195px;
+  text-transform: uppercase;
+}
+#wrapper aside hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.clear {
+  clear: both;
+}
+/*# sourceMappingURL=style1.css.map */

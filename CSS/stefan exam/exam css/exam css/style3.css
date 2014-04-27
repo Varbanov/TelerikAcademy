@@ -1,0 +1,109 @@
+﻿html,
+body,
+div,
+h1,
+input,
+label,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+  font-family: Corbel;
+}
+#root {
+  width: 350px;
+  padding: 15px 10px;
+  margin: 5px;
+  border-left: 3px solid;
+  border-top: 3px solid;
+  border-radius: 15px;
+}
+#root h1 {
+  padding: 0 60px;
+  font-size: 1.9em;
+}
+#root .widget .box.add-employee {
+  border: 1px solid;
+  margin: 20px 15px;
+  border-radius: 5px;
+  height: 165px;
+  width: 260px;
+  text-align: right;
+  padding: 15px;
+  background: linear-gradient(to bottom, #cbf7be 0%, #d0f1ae 25%, #e5d96e 100%);
+}
+#root .widget .box.add-employee label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+#root .widget .box.add-employee label:nth-of-type(3) {
+  float: left;
+  margin-left: 55px;
+  margin-right: 15px;
+}
+#root .widget .box.add-employee label:nth-of-type(4) {
+  float: left;
+  margin-left: 58px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+#root .widget .box.add-employee input {
+  border-left: 3px solid #86a27c;
+  border-top: 3px solid #86a27c;
+  border-bottom: 3px solid #c9f8c1;
+  border-right: 3px solid #c9f8c1;
+  border-radius: 3px;
+  height: 25px;
+  width: 145px;
+  margin-bottom: 5px;
+  font-style: oblique;
+  font-size: 0.9em;
+  padding-left: 15px;
+}
+#root .widget .box.add-employee input:first-of-type {
+  background: linear-gradient(to bottom, #c9f5bc 0%, #ccf2b2 100%);
+}
+#root .widget .box.add-employee input:nth-of-type(2) {
+  background: linear-gradient(to bottom, #d0f2af 0%, #d2efa8 100%);
+  margin-bottom: 10px;
+}
+#root .widget .box.add-employee #dd-rank .chosen {
+  display: inline-block;
+  float: left;
+  padding-left: 20px;
+  background-image: url(images/down-arrow.png);
+  background-repeat: no-repeat;
+}
+#root .widget .box.add-employee #dd-rank ul {
+  display: none;
+}
+#root .widget .box.add-employee #dd-rank ul.expanded {
+  list-style-type: none;
+  position: absolute;
+  display: block;
+  border: 1px solid;
+  left: 200px;
+}
+#root .widget .box.add-employee #dd-title .chosen {
+  margin-top: 10px;
+  display: inline-block;
+  float: left;
+  padding-left: 20px;
+  background-image: url(images/down-arrow.png);
+  background-repeat: no-repeat;
+}
+#root .widget .box.add-employee #dd-title ul {
+  display: none;
+}
+#root .widget .box.add-employee #dd-title .expanded {
+  position: absolute;
+  list-style-type: none;
+  display: block;
+  top: 0;
+  left: 150px;
+}
+/*# sourceMappingURL=style3.css.map */

@@ -1,0 +1,97 @@
+﻿body,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  width: 960px;
+}
+body {
+  font-size: 16px;
+  font-family: sans-serif, Verdana;
+}
+.sidebar {
+  list-style-type: none;
+  width: 215px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #d19bff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #d19bff 0%, #8a78ff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d19bff), color-stop(100%, #8a78ff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #d19bff 0%, #8a78ff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #d19bff 0%, #8a78ff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #d19bff 0%, #8a78ff 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #d19bff 0%, #8a78ff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d19bff', endColorstr='#8a78ff', GradientType=0);
+  /* IE6-9 */
+}
+.sidebar > li {
+  font-size: 1.4em;
+  padding: 5px 15px;
+  background-color: #d19bff #8a78ff;
+  margin-top: 1px;
+  position: relative;
+}
+.sidebar > li > a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 15px;
+  border-bottom: 1px solid #9d00ff;
+}
+.sidebar > li:last-of-type a {
+  border: none;
+}
+.sidebar > li ul {
+  display: none;
+}
+.sidebar > li:hover > a {
+  border: 1px solid #9d00ff;
+  border-radius: 5px;
+}
+.sidebar > li:hover ul {
+  display: block;
+  position: absolute;
+  list-style-type: none;
+  background-color: #b5aaff;
+  top: -5px;
+  left: 205px;
+  width: 240px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sidebar > li:hover ul li {
+  font-size: 0.8em;
+  padding-left: 20px;
+}
+.sidebar > li:hover ul li:first-of-type {
+  background-image: url(imgs/arrow.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+.sidebar > li:hover ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border-bottom: 1px solid #9d00ff;
+  display: inline-block;
+  width: 190px;
+  text-align: center;
+}
+.sidebar > li:hover ul li a:hover {
+  border: 1px solid #9d00ff;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=task1.css.map */

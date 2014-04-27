@@ -1,0 +1,46 @@
+﻿html,
+body,
+div,
+ul,
+li,
+a,
+img {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  width: 960px;
+  font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+  font-size: 16px;
+}
+#wrapper .select-list {
+  padding: 25px;
+}
+#wrapper .select-list a {
+  display: inline-block;
+  position: relative;
+  top: -80px;
+}
+#wrapper .select-list ul {
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  overflow-y: scroll;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #8168ff 0%, #fdfdff 100%);
+}
+#wrapper .select-list ul li {
+  padding: 5px 15px;
+  border-bottom: 1px solid;
+}
+#wrapper .select-list ul li:first-letter {
+  text-decoration: underline;
+}
+#wrapper .select-list ul li.selected {
+  background: none;
+  background-color: #6c4eff;
+}
+#wrapper .select-list ul li:last-of-type {
+  border-bottom: none;
+}
+/*# sourceMappingURL=task2.css.map */

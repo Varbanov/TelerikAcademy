@@ -58,6 +58,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="task_01.html" />
+    <Content Include="task_01.js" />
+    <Content Include="task_02.html" />
+    <Content Include="task_02.js" />
+    <Content Include="task_03.html" />
+    <Content Include="task_03.js" />
+    <Content Include="task_04.html" />
+    <Content Include="task_04.js" />
+    <Content Include="task_05.html" />
+    <Content Include="task_05.js" />
+    <Content Include="task_06.html" />
+    <Content Include="task_06.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>01.</title>
+    <!--
+        02. Write a script that shims querySelector and querySelectorAll in older browsers
+        -->
+    <script src="task_03.js"></script>
+</head>
+<body>
+    <div class="class"></div>
+    <div id="id"></div>
+    <input type="checkbox" name="name" class="class" />
+    <script>
+        var first = document.querySelectorAll("id");
+        var second = document.querySelectorAll("class");
+        console.log(first);
+        console.log(second);
+    </script>
+</body>
+</html>

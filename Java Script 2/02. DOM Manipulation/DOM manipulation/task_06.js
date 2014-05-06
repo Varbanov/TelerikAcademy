@@ -36,27 +36,31 @@
 
 //solution
 (function initialilyCollapseNestedDivs() {
-    var nestedULs = document.querySelectorAll("li ul");
-    for (var i = 0; i < nestedULs.length; i++) {
-        nestedULs[i].style.display = "none";
-        //nestedULs[i].setAttribute("data-expand", "none");
-        nestedULs[i].parentNode.onclick = onClickExpandOrCollapse;
-        var a = 6;
+    var lis = document.getElementsByTagName("li");
+    for (var i = 0, len = lis.length; i < len; i++) {
+        var tempChild = lis[i].firstElementChild;
+        while (tempChild) {
+            tempChild.style.display = "none";
+            tempChild = tempChild.nextElementSibling;
+        }
+
+        lis[i].addEventListener('click', onClickExpandOrCollapse, false);
     }
 })();
 
-function onClickExpandOrCollapse(li) {
-    
-    var nestedElems = this.children;
-    for (var i = 0, len = nestedElems.length; i < len; i++) {
-        if (nestedElems[i] instanceof HTMLUListElement) {
-            if (nestedElems[i].style.display == "none") {
-                nestedElems[i].style.display = "block";
-            }
-            else {
-                nestedElems[i].style.display = "none";
-            }
+function onClickExpandOrCollapse(event) {
+    //prevent from applying the function on all parent elements
+    event.stopPropagation();
+    var tempChild = this.firstElementChild;
+    while (tempChild) {
+        if (tempChild.style.display == 'none') {
+            tempChild.style.display = 'block';
         }
+        else {
+            tempChild.style.display = 'none';
+        }
+        tempChild = tempChild.nextElementSibling;
+
     }
 
 }

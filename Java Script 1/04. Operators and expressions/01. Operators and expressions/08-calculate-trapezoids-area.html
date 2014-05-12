@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <p>08. Write an expression that calculates trapezoid's area by given sides a and b and height h.</p>
+        <label for="trapezoidA">a:</label>
+        <input type="text" id="trapezoidA" />
+        <label for="trapezoidb">b:</label>
+        <input type="text" id="trapezoidb" />
+        <label for="trapezoidH">h:</label>
+        <input type="text" id="trapezoidH" />
+        <input type="button" value="Check" onclick='calcTrapezoidArea(document.getElementById("trapezoidA").value, document.getElementById("trapezoidb").value, document.getElementById("trapezoidH").value)' />
+    </div>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script src="scripts/08-calculate-trapezoids-area.js"></script>
+</body>
+</html>

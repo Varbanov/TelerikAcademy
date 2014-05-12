@@ -57,10 +57,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="4. sort properties in document, window and navigator.html" />
-    <Content Include="1.print numbers.html" />
-    <Content Include="2.print nums to n not divisible by 3 and 7.html" />
-    <Content Include="3.find max and min in sequence.html" />
+    <Content Include="04-sort-props-in-document-window-navigator.html" />
+    <Content Include="01-print-nums-to-n.html" />
+    <Content Include="02-print-nums-not-divisible-by-3-7.html" />
+    <Content Include="03-find-max-min-in-sequence.html" />
+    <Content Include="scripts\01-print-nums-to-n.js" />
+    <Content Include="scripts\02-print-nums-not-divisible-by-3-7.js" />
+    <Content Include="scripts\03-find-max-min-in-sequence.js" />
+    <Content Include="scripts\04-sort-props-in-document-window-navigator.js" />
     <Content Include="scripts\js-console.js" />
     <Content Include="styles\js-console.css" />
     <Content Include="styles\js-console.min.css" />

@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        01. Write functions for working with shapes in  standard Planar coordinate system. Points are represented by coordinates P(X, Y).
+        Lines are represented by two points, marking their beginning and ending: L(P1(X1,Y1),P2(X2,Y2)). Calculate the distance between two points.
+        Check if three segment lines can form a triangle.
+    </div>
+    <div>
+        <div>Please enter x and y coordinates of the first point, separated by whitespace. Format: X Y: <input type="text" id="input1" /></div>
+        <div>Please enter x and y coordinates of the second point, separated by whitespace. Format: X Y: <input type="text" id="input2" /></div>
+        <input type="button" value="Check distance" onclick='onDistBtnClick(document.getElementById("input1").value, document.getElementById("input2").value)' />
+        <div>Please enter coordinates of the first line, separated by whitespace. Format: X1 Y1 X2 Y2: <input type="text" id="line1" /></div>
+        <div>Please enter coordinates of the second line, separated by whitespace. Format: X1 Y1 X2 Y2: <input type="text" id="line2" /></div>
+        <div>Please enter coordinates of the third line, separated by whitespace. Format: X1 Y1 X2 Y2: <input type="text" id="line3" /></div>
+        <input type="button" value="Check triangle" onclick='onTriangleBtnClick(document.getElementById("line1").value, document.getElementById("line2").value, document.getElementById("line3").value)' />
+    </div>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script src="scripts/01-distance-between-points.js"></script>
+</body>
+</html>

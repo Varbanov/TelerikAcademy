@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        07. Write a program that finds the index of given element in a sorted array of integers by using the binary search algorithm (find it in Wikipedia)
+    </div>
+    <div>
+        <p>
+            Please enter the array elements <strong>sorted</strong> and separated by whitespace:
+            <input type="text" id="input1" />
+        </p>
+        <p>
+            Please enter the number to search for:
+            <input type="text" id="input2" />
+        </p>
+        <input type="button" value="Check" onclick='findBinary(document.getElementById("input1").value, document.getElementById("input2").value)' />
+    </div>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script src="scripts/07-binary-search.js"></script>
+</body>
+</html>

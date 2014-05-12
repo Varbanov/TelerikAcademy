@@ -57,15 +57,24 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01. odd or even.html" />
-    <Content Include="02. divide by 7 and 5.html" />
-    <Content Include="03. rectangle area.html" />
-    <Content Include="04. is third digit 7.html" />
-    <Content Include="05. check third bit.html" />
-    <Content Include="06. point in a circle.html" />
-    <Content Include="07. check if prime or composite.html" />
-    <Content Include="08. trapezoid area.html" />
-    <Content Include="09. circle and rectangle.html" />
+    <Content Include="01-odd-or-even.html" />
+    <Content Include="02-divide-by-7-and-5.html" />
+    <Content Include="03-calculate-rectangle-area.html" />
+    <Content Include="04-is-third-digit-7.html" />
+    <Content Include="05-check-third-bit.html" />
+    <Content Include="06-point-in-circle.html" />
+    <Content Include="07-check-prime-or-composite.html" />
+    <Content Include="08-calculate-trapezoids-area.html" />
+    <Content Include="09-in-circle-out-of-rectangle.html" />
+    <Content Include="scripts\01-odd-or-even.js" />
+    <Content Include="scripts\02-divide-by-7-and-5.js" />
+    <Content Include="scripts\03-calculate-rectangle-area.js" />
+    <Content Include="scripts\04-is-third-digit-7.js" />
+    <Content Include="scripts\05-check-third-bit.js" />
+    <Content Include="scripts\06-point-in-circle.js" />
+    <Content Include="scripts\07-check-prime-or-composite.js" />
+    <Content Include="scripts\08-calculate-trapezoids-area.js" />
+    <Content Include="scripts\09-in-circle-out-of-rectangle.js" />
     <Content Include="scripts\js-console.js" />
     <Content Include="styles\js-console.css" />
     <Content Include="styles\js-console.min.css" />

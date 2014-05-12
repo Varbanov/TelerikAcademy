@@ -57,14 +57,22 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01. exchange values.html" />
-    <Content Include="03. biggest of three.html" />
-    <Content Include="04. sort three nums.html" />
-    <Content Include="06. quadratic equation solver.html" />
-    <Content Include="07. greatest of five.html" />
+    <Content Include="01-exchange-values.html" />
+    <Content Include="03-biggest-of-three-integers.html" />
+    <Content Include="04-sort-three-numbers.html" />
+    <Content Include="06-quadratic-equation-solver.html" />
+    <Content Include="07-greatest-of-five.html" />
+    <Content Include="scripts\01-exchange-values.js" />
+    <Content Include="scripts\02-sign-of-product.js" />
+    <Content Include="scripts\03-biggest-of-three-integers.js" />
+    <Content Include="scripts\04-sort-three-numbers.js" />
+    <Content Include="scripts\05-write-name-of-digit.js" />
+    <Content Include="scripts\06-quadratic-equation-solver.js" />
+    <Content Include="scripts\07-greatest-of-five.js" />
+    <Content Include="scripts\08-spell-numbers.js" />
     <Content Include="scripts\js-console.js" />
-    <Content Include="05. name of digit.html" />
-    <Content Include="08. spell numbers.html" />
+    <Content Include="05-write-name-of-digit.html" />
+    <Content Include="08-spell-numbers.html" />
     <Content Include="styles\js-console.css" />
     <Content Include="styles\js-console.min.css" />
     <Content Include="Web.config" />
@@ -74,7 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="styles\js-console.less" />
-    <Content Include="02. sign of product.html" />
+    <Content Include="02-sign-of-product.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -57,12 +57,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01. distance betwen points.html" />
-    <Content Include="02. remove element and attach func to prototype.html" />
-    <Content Include="03. deep copy function.html" />
-    <Content Include="04. check property in object.html" />
-    <Content Include="05. search in array of people.html" />
-    <Content Include="06. group persons.html" />
+    <Content Include="01-distance-between-points.html" />
+    <Content Include="02-remove-element.html" />
+    <Content Include="03-deep-copy-function.html" />
+    <Content Include="04-check-if-has-property.html" />
+    <Content Include="05-search-in-array-of-people.html" />
+    <Content Include="06-group-persons.html" />
+    <Content Include="scripts\06-group-persons.js" />
+    <Content Include="scripts\01-distance-between-points.js" />
+    <Content Include="scripts\02-remove-element.js" />
+    <Content Include="scripts\03-deep-copy-function.js" />
+    <Content Include="scripts\04-check-if-has-property.js" />
+    <Content Include="scripts\05-search-in-array-of-people.js" />
     <Content Include="scripts\js-console.js" />
     <Content Include="styles\js-console.css" />
     <Content Include="styles\js-console.min.css" />

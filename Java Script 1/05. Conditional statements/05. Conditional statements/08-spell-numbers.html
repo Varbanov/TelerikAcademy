@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div>08. Write a script that converts a number in the range [0...999] to a text corresponding to its English pronunciation. Examples:
+	0  "Zero"
+	273  "Two hundred seventy three"
+	400  "Four hundred"
+	501  "Five hundred and one"
+	711  "Seven hundred and eleven"
+</div>
+    <div>
+        Please enter an integer in the range [0..999]:
+        <input type="text" id="input1" />
+        <input type="button" value="Check" onclick='spellNum(document.getElementById("input1").value)' />
+    </div>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script src="scripts/08-spell-numbers.js"></script>
+</body>
+</html>

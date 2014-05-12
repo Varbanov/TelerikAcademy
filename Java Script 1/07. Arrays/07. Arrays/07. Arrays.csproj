@@ -57,13 +57,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01 allocate array.html" />
-    <Content Include="02 compare char arrays.html" />
-    <Content Include="03 max sequence of equal elems.html" />
-    <Content Include="04 max increasing sequence.html" />
-    <Content Include="05. selection sort.html" />
-    <Content Include="06. most frequent element.html" />
-    <Content Include="07. binary search.html" />
+    <Content Include="01-allocate-array.html" />
+    <Content Include="02-compare-char-arrays.html" />
+    <Content Include="03-max-sequence-equal-elements.html" />
+    <Content Include="04-max-increasing-sequence.html" />
+    <Content Include="05-selection-sort.html" />
+    <Content Include="06-most-frequent-element.html" />
+    <Content Include="07-binary-search.html" />
+    <Content Include="scripts\01-allocate-array.js" />
+    <Content Include="scripts\02-compare-char-arrays.js" />
+    <Content Include="scripts\03-max-sequence-equal-elements.js" />
+    <Content Include="scripts\04-max-increasing-sequence.js" />
+    <Content Include="scripts\05-selection-sort.js" />
+    <Content Include="scripts\06-most-frequent-element.js" />
+    <Content Include="scripts\07-binary-search.js" />
     <Content Include="scripts\js-console.js" />
     <Content Include="styles\js-console.css" />
     <Content Include="styles\js-console.min.css" />

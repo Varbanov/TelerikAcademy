@@ -1,0 +1,12 @@
+﻿var num = 5;
+var str = "Pesho";
+var obj = {};
+var nullVar = null;
+var undefinedVar = undefined;
+var boolVar = false;
+console.log(typeof num);
+console.log(typeof str);
+console.log(typeof obj);
+console.log(typeof undefinedVar);
+console.log(typeof nullVar);
+console.log(typeof boolVar);

@@ -57,13 +57,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01. last digit.html" />
-    <Content Include="02. reverse digits.html" />
-    <Content Include="03. count words.html" />
-    <Content Include="04. count div elements in html.html" />
-    <Content Include="05. count occurence in array.html" />
-    <Content Include="06. neighbours.html" />
-    <Content Include="07. first bigger than neighbours.html" />
+    <Content Include="01-return-last-digit.html" />
+    <Content Include="02-reverse-digits.html" />
+    <Content Include="03-count-occurence-of-word.html" />
+    <Content Include="04-count-div-elements.html" />
+    <Content Include="05-count-occurence-in-array.html" />
+    <Content Include="06-bigger-than-neighbours.html" />
+    <Content Include="07-first-bigger-than-neighbours.html" />
+    <Content Include="scripts\01-return-last-digit.js" />
+    <Content Include="scripts\02-reverse-digits.js" />
+    <Content Include="scripts\03-count-occurence-of-word.js" />
+    <Content Include="scripts\04-count-div-elements.js" />
+    <Content Include="scripts\05-count-occurence-in-array.js" />
+    <Content Include="scripts\06-bigger-than-neighbours.js" />
+    <Content Include="scripts\07-first-bigger-than-neighbours.js" />
     <Content Include="scripts\js-console.js" />
     <Content Include="styles\js-console.css" />
     <Content Include="styles\js-console.min.css" />

@@ -1,7 +1,7 @@
 ﻿function stringFormat() {
     //validation
     if (arguments.length < 1) {
-        return "";
+        return undefined;
     }
     else if (arguments.length == 1) {
         return arguments[0].toString();
@@ -11,7 +11,6 @@
     var regex = new RegExp("{\\s*(\\d){1,2}\\s*}", "g");
     var placeholders = str.match(regex);
 
-    //validation
     //if placeholder index is greater than the number of arguments
     for (var i = 0; i < placeholders.length; i++) {
         if (placeholders[i][1] > arguments.length - 1) {

@@ -6,20 +6,7 @@
 //"def func5 avg[5, 3, 7, 2, 6, 3]",
 //"def func6 sum[func2, func3, func4 ]",
 //"sum[func6, func4]"]
-
-var args = args = [
-"def maxy max[100]                  ",
-"def summary [0]                    ",
-"def combo [maxy, maxy,maxy,maxy, 5,6]  ",
-"def summary sum[combo, maxy, -18000]   ",
-"def pe6o avg[summary,maxy]         ",
-"sum[7, pe6o]                       ",
-]
-
-
-
-console.log(Solve(args));
-
+//console.log(Solve(args));
 
 function Solve(args) {
     var command;
@@ -35,6 +22,10 @@ function Solve(args) {
     for (cmdNum = 0; cmdNum < args.length - 1; cmdNum++) {
         command = args[cmdNum];
         command = command.trim();
+        if (command.substr(0, 3) != "def") {
+            continue;
+        }
+
         command = command.slice("def".length).trim();
         name = extractName(command);
         command = command.slice(name.length).trim();
@@ -44,10 +35,8 @@ function Solve(args) {
             command = command.slice(0, command.length - 1).trim();
             arr = readArray(command, variables);
             variables[name] = arr;
-
         } else {
             operation = readOperation(command);
-
             command = command.slice(operation.length + 1).trim();
             command = command.slice(0, command.length - 1).trim();
             arr = readArray(command, variables);
@@ -66,8 +55,6 @@ function Solve(args) {
                 variables[name] = resultOfOperation;
             }
         }
-
-        var p = 5;
     }
 
     //last line
@@ -104,8 +91,7 @@ function Solve(args) {
             for (var i = 0; i < arr.length; i++) {
                 if (typeof (arr[i]) == "number") {
                     sum += arr[i];
-                }
-                else {
+                } else {
                     find(arr[i]);
                 }
             }
@@ -125,14 +111,15 @@ function Solve(args) {
                         min = arr[i];
                         firstMinFound = true;
                     }
+
                     if (arr[i] < min) {
                         min = arr[i];
                     }
-                }
-                else {
+                } else {
                     find(arr[i]);
                 }
             }
+
         })(arr);
 
         return min;
@@ -152,8 +139,7 @@ function Solve(args) {
                     if (arr[i] > max) {
                         max = arr[i];
                     }
-                }
-                else {
+                } else {
                     find(arr[i]);
                 }
             }
@@ -171,7 +157,7 @@ function Solve(args) {
 
     function readArray(cmd, variables) {
         var arr = command.split(",");
-        for (j = 0; j < arr.length; j++) {
+        for (var j = 0; j < arr.length; j++) {
             arr[j] = arr[j].trim();
             var num = parseInt(arr[j]);
             if (!isNaN(num)) {
@@ -180,6 +166,7 @@ function Solve(args) {
                 arr[j] = variables[arr[j]];
             }
         }
+
         return arr;
     }
 
@@ -190,9 +177,9 @@ function Solve(args) {
             res += cmd[i];
             i++;
         }
+
         return res;
     }
-
 
     function extractName(cmd) {
         var res = "";
@@ -201,7 +188,7 @@ function Solve(args) {
             res += cmd[i];
             i++;
         }
+
         return res;
     }
-
 }

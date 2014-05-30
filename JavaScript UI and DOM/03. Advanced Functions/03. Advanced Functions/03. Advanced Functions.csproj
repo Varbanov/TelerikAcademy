@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{90EEBBA9-4574-4884-B8E2-C8913971141A}</ProjectGuid>
+    <ProjectGuid>{2F833EAC-AA64-4F3C-AC3F-4BA749431F8F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DOM_manipulation</RootNamespace>
-    <AssemblyName>DOM manipulation</AssemblyName>
+    <RootNamespace>_03.Advanced_Functions</RootNamespace>
+    <AssemblyName>_03.Advanced_Functions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,18 +57,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="task_01.html" />
-    <Content Include="task_01.js" />
-    <Content Include="task_02.html" />
-    <Content Include="task_02.js" />
-    <Content Include="task_03.html" />
-    <Content Include="task_03.js" />
-    <Content Include="task_04.html" />
-    <Content Include="task_04.js" />
-    <Content Include="task_05.html" />
-    <Content Include="task_05.js" />
-    <Content Include="task_06.html" />
-    <Content Include="task_06.js" />
+    <Content Include="01-dom-module.html" />
+    <Content Include="01-dom-module.js" />
+    <Content Include="02-moving-elements-module.html" />
+    <Content Include="02-moving-elements-module.js" />
+    <Content Include="03-console-module.html" />
+    <Content Include="03-console-module.js" />
+    <Content Include="04-treeview-modul.html" />
+    <Content Include="04-treeview-modul.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,9 +91,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>4684</DevelopmentServerPort>
+          <DevelopmentServerPort>2333</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:4684/</IISUrl>
+          <IISUrl>http://localhost:2333/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

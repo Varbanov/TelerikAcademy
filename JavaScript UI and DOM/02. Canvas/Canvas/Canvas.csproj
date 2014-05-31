@@ -68,6 +68,10 @@
     <Content Include="capture.png" />
     <Content Include="figures.html" />
     <Content Include="figures.js" />
+    <Content Include="flying circle.html" />
+    <Content Include="flying-circle.js" />
+    <Content Include="snake.html" />
+    <Content Include="snake.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

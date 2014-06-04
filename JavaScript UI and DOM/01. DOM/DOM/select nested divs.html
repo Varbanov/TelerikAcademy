@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <!--
+    Write a script that selects all the div nodes that are directly
+         inside other div elements
+        Create a function using querySelectorAll()
+        Create a function using getElementsByTagName()
+    -->
+
+</head>
+<body>
+    <script src="select-nested-divs.js"></script>
+    <input type="button" id="check" onclick="onCheckDivsBtnClick()" value="Check divs" />
+    <div>
+        Main div
+        <div>
+            Nested div
+            <fieldset>
+                Nested fielset
+                <div>
+                    Div inside the fieldset
+                    <div>
+                        Div inside the div that is inside the fieldset
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+</body>
+</html>

@@ -26,5 +26,10 @@
     };
 }
 
-var elementById = document.querySelector("#id").innerHTML;
+//test
+var elementById = document.querySelector("#id");
+var elementByClass = document.querySelectorAll(".class");
 console.log(elementById);
+console.log(elementByClass);
+
+

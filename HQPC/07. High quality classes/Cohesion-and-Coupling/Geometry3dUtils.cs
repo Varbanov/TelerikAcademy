@@ -1,0 +1,38 @@
+﻿namespace CohesionAndCoupling
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    public class Geometry3dUtils
+    {
+        public static double CalcDistance3D(double x1, double y1, double z1, double x2, double y2, double z2)
+        {
+            checked
+            {
+                double distance = Math.Sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1) + (z2 - z1) * (z2 - z1));
+                return distance;
+            }
+        }
+
+        public static double CalcDiagonalXYZ(double x, double y, double z)
+        {
+            checked
+            {
+                double distance = Math.Sqrt((x * x) + (y * y) + (z * z));
+                return distance;
+            }
+        }
+
+        public static double CalcCuboidVolume(double width, double height, double depth)
+        {
+            checked
+            {
+                double volume = width * height * depth;
+                return volume;
+            }
+        }
+    }
+}

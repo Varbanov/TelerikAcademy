@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <!--
+        Create a text area and two inputs with type="color"
+        Make the font color of the text area as the value of the first color input
+        Make the background color of the text area as the value of the second input
+    -->
+</head>
+<body>
+    <script src="colors.js"></script>
+
+    <label for="font">Enter font color in the format "#rgb": </label>
+    <input type="color" id="font" />
+    <label for="background">Enter background color in the format "#rgb": </label>
+    <input type="color" id="background" />
+    <textarea id="area"></textarea>
+    <input type="button" value="Check" onclick="OnCheckBtnClick()" />
+</body>
+</html>

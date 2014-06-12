@@ -1,0 +1,13 @@
+﻿body {
+    text-align: center;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+    a.selected {
+        background-color: #ff6e6a;
+    }

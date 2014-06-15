@@ -1,12 +1,12 @@
 ﻿/// <reference path="jquery-2.1.1.min.js" />
 var data = fillData();
 
-(function slider(data, width, height) {
+(function slider(data) {
     var current = 0;
 
     var $container = $('<div/>')
-        .css('width', width)
-        .css('height', height)
+        .css('width', 600)
+        .css('height', 400)
         .css('border', '1px solid black')
         .css('background-color', '#eaeaea')
         .css('border-radius', 20)
@@ -14,7 +14,7 @@ var data = fillData();
 
 
     var $leftArrow = $('<img/>')
-        .attr('src', 'left.png')
+        .attr('src', 'http://www.wpclipart.com/signs_symbol/button/metal_buttons/arrow_button_metal_silver_left.png')
         .attr('width', 40)
         .css('position', 'relative')
         .css('top', 180)
@@ -29,7 +29,7 @@ var data = fillData();
         })
 
     var $rightArrow = $('<img/>')
-        .attr('src', 'right.png')
+        .attr('src', 'http://www.wpclipart.com/signs_symbol/button/metal_buttons/arrow_button_metal_silver_right.png')
         .attr('width', 40)
         .css('position', 'relative')
         .css('top', 180)
@@ -54,27 +54,12 @@ var data = fillData();
         .html(data[current])
         .appendTo($container);
 
-    //$($content.html())
-    //    .css('position', 'relative')
-    //    .css('left', 0)
-    //    .css('right', 0)
-    //    .css('top', 0)
-    //    .css('bottom', 0)
-    //    .css('margin', 'auto')
-
-    $('img')
-     .css('position', 'relative')
-        .css('left', 0)
-        .css('right', 0)
-        .css('top', 0)
-        .css('bottom', 0)
-        .css('margin', 'auto')
 
 
 
     $(document.body).append($container);
 
-})(data, 600, 400);
+})(data);
 
 function fillData() {
     var data = [];

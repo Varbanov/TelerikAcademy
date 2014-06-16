@@ -48,7 +48,7 @@ var data = fillData();
         .css('height', 386)
         .css('top', -40)
         .css('left', 80)
-        .css('border', '1px solid black')
+        //.css('border', '1px solid black')
         .css('text-align', 'center')
         .css('vertical-align', 'middle')
         .html(data[current])

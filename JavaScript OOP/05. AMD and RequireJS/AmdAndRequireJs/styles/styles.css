@@ -1,0 +1,17 @@
+﻿.person-item {
+    width: 150px;
+    border: 1px solid black;
+    display: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #a7f273;
+}
+
+.visible {
+    display: block;
+}
+
+.selected {
+    display: block;
+}

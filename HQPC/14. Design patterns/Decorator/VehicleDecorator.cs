@@ -8,7 +8,7 @@ namespace Decorator
 {
     public abstract class VehicleDecorator : Vehicle
     {
-        protected Vehicle Vehicle { get; set; }
+        private Vehicle Vehicle { get; set; }
 
         public VehicleDecorator(Vehicle vehicle)
             : base(vehicle.Seats, vehicle.Consumption)
@@ -18,12 +18,17 @@ namespace Decorator
 
         public override void MoveForward()
         {
-            throw new NotImplementedException();
+            this.Vehicle.MoveForward();
         }
 
         public override void MoveBackward()
         {
-            throw new NotImplementedException();
+            this.Vehicle.MoveBackward();
+        }
+
+        public override string Show()
+        {
+            return this.Vehicle.Show();
         }
     }
 }

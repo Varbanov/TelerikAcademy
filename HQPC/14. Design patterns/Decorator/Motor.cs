@@ -16,15 +16,20 @@ namespace Decorator
             this.SaddleBagsVolume = saddlebagsVolume;
         }
 
-
         public override void MoveForward()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("The motor moved forward");
         }
 
         public override void MoveBackward()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("The motor moved backward");
+        }
+
+        public override string Show()
+        {
+            var baseRes = base.Show();
+            return baseRes + string.Format("--from Motor: saddlebags volume: {0} ", this.SaddleBagsVolume);
         }
     }
 }

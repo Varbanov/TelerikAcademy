@@ -18,12 +18,19 @@ namespace Decorator
 
         public override void MoveForward()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("The car moved forward");
         }
 
         public override void MoveBackward()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("The car moved backward");
         }
+
+        public override string Show()
+        {
+            var baseResult = base.Show();
+            return baseResult + string.Format("--from Car: side windows: {0} ", sideWindowsCount);
+        }
+
     }
 }

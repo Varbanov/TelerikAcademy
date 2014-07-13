@@ -14,13 +14,6 @@
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Decorator.SportMotorCar" Collapsed="true">
-    <Position X="0.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAEAAAAQAAAAAAAAAAA=</HashCode>
-      <FileName>SportMotorCar.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Decorator.Vehicle" Collapsed="true">
     <Position X="1.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
@@ -32,17 +25,24 @@
   <Class Name="Decorator.VehicleDecorator" Collapsed="true">
     <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAABAABAEAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAABAEEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>VehicleDecorator.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Struct Name="Decorator.Position" Collapsed="true">
-    <Position X="5.25" Y="1.75" Width="1.5" />
+  <Class Name="Decorator.SportVehicle" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
-      <FileName>Position.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>SportMotorVehicle.cs</FileName>
     </TypeIdentifier>
-  </Struct>
+  </Class>
+  <Class Name="Decorator.Motor" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Motor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="Decorator.IVehicle" Collapsed="true">
     <Position X="5.25" Y="3" Width="1.5" />
     <TypeIdentifier>

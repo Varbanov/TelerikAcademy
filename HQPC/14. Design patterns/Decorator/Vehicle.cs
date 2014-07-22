@@ -1,23 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Decorator
+﻿namespace Decorator
 {
+    using System;
+
     public abstract class Vehicle : IVehicle
     {
-        public int Seats { get; private set; }
-        public int Consumption { get; private set; }
-        
         public Vehicle(int seats, int consumption) 
         {
             this.Seats = seats;
             this.Consumption = consumption;
         }
 
+        public int Seats { get; private set; }
+
+        public int Consumption { get; private set; }
+
         public abstract void MoveForward();
+
         public abstract void MoveBackward();
 
         public virtual string Show() 

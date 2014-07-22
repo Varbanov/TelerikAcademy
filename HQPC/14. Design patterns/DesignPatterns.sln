@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{58BB28AD-7200-4201-8092-54228F00889A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverAndSingleton", "ObserverAndSingleton\ObserverAndSingleton.csproj", "{747FE3F2-2EDE-4085-9030-0FDB43BE8880}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{58BB28AD-7200-4201-8092-54228F00889A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58BB28AD-7200-4201-8092-54228F00889A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58BB28AD-7200-4201-8092-54228F00889A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747FE3F2-2EDE-4085-9030-0FDB43BE8880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747FE3F2-2EDE-4085-9030-0FDB43BE8880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747FE3F2-2EDE-4085-9030-0FDB43BE8880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747FE3F2-2EDE-4085-9030-0FDB43BE8880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

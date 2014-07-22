@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Decorator
+﻿namespace Decorator
 {
+    using System;
+
     public abstract class VehicleDecorator : Vehicle
     {
-        private Vehicle Vehicle { get; set; }
-
         public VehicleDecorator(Vehicle vehicle)
             : base(vehicle.Seats, vehicle.Consumption)
         {
             this.Vehicle = vehicle;
         }
+
+        private Vehicle Vehicle { get; set; }
 
         public override void MoveForward()
         {

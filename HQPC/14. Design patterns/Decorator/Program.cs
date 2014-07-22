@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Decorator
+﻿namespace Decorator
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main()
+        public static void Main()
         {
             var car = new Car(4, 7, 4);
             var motor = new Motor(70, 5);
@@ -31,9 +27,6 @@ namespace Decorator
             motor.MoveBackward();
 
             Console.WriteLine("-----------------------------------------");
-
-
-
         }
     }
 }

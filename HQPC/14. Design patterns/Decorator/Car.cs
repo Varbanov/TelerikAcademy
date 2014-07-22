@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Decorator
+﻿namespace Decorator
 {
+    using System;
+
     public class Car : Vehicle
     {
-        public int sideWindowsCount { get; set; }
-
         public Car(int seats, int consumption, int sideWindowsCount)
             : base(seats, consumption)
         {
-            this.sideWindowsCount = sideWindowsCount;
+            this.SideWindowsCount = sideWindowsCount;
         }
+
+        public int SideWindowsCount { get; set; }
 
         public override void MoveForward()
         {
@@ -29,8 +25,7 @@ namespace Decorator
         public override string Show()
         {
             var baseResult = base.Show();
-            return baseResult + string.Format("--from Car: side windows: {0} ", sideWindowsCount);
+            return baseResult + string.Format("--from Car: side windows: {0} ", this.SideWindowsCount);
         }
-
     }
 }

@@ -31,24 +31,26 @@ require(['underscore', 'handlebars', 'jquery', 'data/students', 'data/animals', 
 
         fillPeopleTemplate('studentTemplate', students, "all");
         fillPeopleTemplate('studentTemplate', one, 'result');
+
+        //student events
         $('#studentChoice').on('change', function () {
             var selectedTask = $(this).find(':selected').val();
             fillPeopleTemplate('studentTemplate', students, "all");
             fillPeopleTemplate('studentTemplate', tasks[selectedTask], 'result');
         });
 
+        //animal events
         $('#animalChoice').on('change', function () {
             var selectedTask = $(this).find(':selected').val();
             fillPeopleTemplate('animalTemplate', animals, 'all');
             fillPeopleTemplate('animalTemplate', tasks[selectedTask], 'result');
         });
 
+        //book events
         $('#bookChoice').on('change', function () {
             var selectedTask = $(this).find(':selected').val();
             fillPeopleTemplate('bookTemplate', books, 'all');
             debugger;
             fillPeopleTemplate('bookTemplate', tasks[selectedTask], 'result');
         });
-
-
     });

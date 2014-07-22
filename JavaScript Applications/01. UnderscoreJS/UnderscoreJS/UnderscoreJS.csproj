@@ -81,6 +81,7 @@
     <Content Include="scripts\libs\underscore.js" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\data\students.js" />
+    <Content Include="scripts\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

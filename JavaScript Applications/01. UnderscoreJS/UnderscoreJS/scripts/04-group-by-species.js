@@ -13,7 +13,7 @@ define(['data/animals', 'underscore'], function (animals, _) {
         })
         .value();
 
-    //just to fit the handlebars template
+    //fit the handlebars template
     var result = [];
     for (var group in groupedAndSortedAnimals) {
         

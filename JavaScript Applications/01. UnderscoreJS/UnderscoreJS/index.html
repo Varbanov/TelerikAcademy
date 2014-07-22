@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        table, td, tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        body {
+            background-color: #adf388;
+        }
+
+        select {
+            background-color: #adf388;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        #wrapper {
+            text-align: center;
+        }
+
+        h2 {
+            font-weight: normal;
+            font-size: 16px;
+        }
+
+        h1 {
+            font-weight: normal;
+            font-size: 18px;
+        }
+
+        #all, #result {
+            display: inline-block;
+            width: 400px;
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>
+            <label for="studentChoice">Select task here: </label>
+            <select id="studentChoice">
+                <option value="0" selected="selected">Task 1</option>
+                <option value="1">Task 2</option>
+                <option value="2">Task 3</option>
+                <option value="6">Task 7</option>
+            </select>
+            <select id="animalChoice">
+                <option>Animal tasks</option>
+                <option value="3">Task 4</option>
+                <option value="4">Task 5</option>
+            </select>
+            <select id="bookChoice">
+                <option selected="selected">Book tasks</option>
+                <option value="5">Task 6</option>
+            </select>
+        </h1>
+
+        <div id="all"></div>
+        <div id="result"></div>
+
+    </div>
+
+    <script id="bookTemplate" type="text/x-handlebars-template">
+        <h2>{{task}}</h2>
+        <table>
+            {{#each books}}
+            <tr>
+                <td>{{author}}</td>
+            </tr>
+            {{/each}}
+        </table>
+    </script>
+
+    <script id="animalTemplate" type="text/x-handlebars-template">
+        <h2>{{task}}</h2>
+        <table>
+            {{#each animals}}
+            <tr>
+                <td>{{species}}</td>
+                <td>Legs: {{legs}}</td>
+            </tr>
+            {{/each}}
+        </table>
+    </script>
+
+    <script id="studentTemplate" type="text/x-handlebars-template">
+        <h2>{{task}}</h2>
+        <table>
+            {{#each students}}
+            <tr>
+                <td>{{fname}} {{lname}}</td>
+                <td>Age: {{age}}</td>
+                <td>Marks: {{mark}}</td>
+            </tr>
+            {{/each}}
+        </table>
+    </script>
+
+
+    <script src="scripts/libs/require.js" data-main="scripts/app"></script>
+
+
+</body>
+</html>

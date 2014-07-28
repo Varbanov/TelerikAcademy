@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body, input {
+           // background-color: #b2fca1;
+        }
+
+        #num {
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--<label for="input">Enter your 4-digit number: </label>-->
+    <div id="messageBox"></div>
+    <input type="text" id="input" />
+    <div id="num"></div>
+    <div id="scoresTable"></div>
+    <script id="template" type="text/x-handlebars-template">
+        <h4>Highscore table:</h4>
+        <ul>
+            {{#each winner}}
+            <li>Name: {{name}}|Tries: {{scores}}</li>
+            {{/each}}
+        </ul>
+
+    </script>
+
+    <script src="scripts/libs/require.js" data-main="scripts/app"></script>
+</body>
+</html>

@@ -17,11 +17,18 @@
     })
 })();
 
+require(['httpRequestModule'], function (httpRequestModule) {
+
+    var africanCountriesUrl = 'http://restcountries.eu/rest/v1/region/africa';
+
+    httpRequestModule.getJson(africanCountriesUrl)
+        .then(showCountries);
+});
 
 function showCountries(countries) {
     var fragment = document.createDocumentFragment();
-    var div = document.createElement('div');
     var i;
+    var div = document.createElement('div');
 
     for (i = 0; i < countries.length; i++) {
         div.innerHTML = countries[i].name;
@@ -30,23 +37,3 @@ function showCountries(countries) {
 
     document.body.appendChild(fragment);
 };
-
-require(['httpRequestModule', 'q'], function (httpRequestModule, Q) {
-    var urlOfCountries = 'https://gist.githubusercontent.com/Keeguon/2310008/raw/865a58f59b9db2157413e7d3d949914dbf5a237d/countries.json';
-
-    var countries = httpRequestModule.getJson(urlOfCountries);
-    //.then(showCountries)
-    //.done();
-
-
-
-    var p = 1;
-    for (var i = 0; i < 10000000; i++) {
-        p++;
-    }
-
-    debugger;
-
-
-});
-

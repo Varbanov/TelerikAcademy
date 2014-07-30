@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="scripts/libs/handlebars-v1.3.0.js"></script>
+
+    <style>
+        .post {
+            border: 1px solid #4cff00;
+        }
+
+        h4, p {
+            margin: 5px;
+            padding: 0;
+        }
+
+        #main {
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="main"></div>
+
+    <script id="template" type="text/x-handlebars-template">
+        {{#each data}}
+        <div class="post">
+            <h4 class="name">{{{by}}}</h4>
+            <p>{{{text}}}</p>
+        </div>
+        {{/each}}
+    </script>
+
+    <input type="text" placeholder="Name" id="name" />
+    <input type="text" placeholder="Message" id="message" />
+    <a href="#/post">POST</a>
+
+    <div id="result"></div>
+    <script src="scripts/libs/require.js" data-main="scripts/app"></script>
+</body>
+</html>

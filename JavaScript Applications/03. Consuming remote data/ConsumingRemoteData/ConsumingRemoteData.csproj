@@ -59,8 +59,11 @@
   <ItemGroup>
     <Content Include="scripts\app.js" />
     <Content Include="scripts\httpRequestModule.js" />
+    <Content Include="scripts\libs\handlebars-v1.3.0.js" />
+    <Content Include="scripts\libs\jquery.min.js" />
     <Content Include="scripts\libs\q.js" />
     <Content Include="scripts\libs\require.js" />
+    <Content Include="scripts\libs\underscore.js" />
     <Content Include="scripts\server\.bowerrc" />
     <Content Include="scripts\server\.npmignore" />
     <Content Include="scripts\server\bower.json" />
@@ -383,7 +386,9 @@
     <Content Include="scripts\server\node_modules\express\test.js" />
     <Content Include="scripts\server\routes\students.js" />
     <Content Include="scripts\httpRequestObjectCreator.js" />
+    <Content Include="task-3-students.html" />
     <Content Include="task-1.html" />
+    <Content Include="scripts\task-3-students.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

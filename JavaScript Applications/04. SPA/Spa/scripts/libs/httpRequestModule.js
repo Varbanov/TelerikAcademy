@@ -1,9 +1,5 @@
 ﻿/// <reference path="libs/q.js" />
 
-//Create a module that exposes methodsfor performing HTTP requests
-//by given URL and headers - getJSON and postJSON. 
-//Both methods should work with promises.
-
 define(['httpRequest', 'q'], function (httpRequest, Q) {
     var makeRequest = function (options) {
 

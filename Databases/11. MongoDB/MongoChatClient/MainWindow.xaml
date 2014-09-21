@@ -1,0 +1,10 @@
+﻿<Window x:Class="MongoChatClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="261.94" Width="274.254">
+    <Grid>
+        <TextBox Name="Username" MouseDown="ClearUserField" HorizontalAlignment="Left" Height="48" Margin="55,64,0,0" TextWrapping="Wrap" Text="Enter username" VerticalAlignment="Top" Width="171"/>
+        <Button Click="OnSelectUsernameBtnClick"  Content="Enter the chat" HorizontalAlignment="Left" Margin="72,136,0,0" VerticalAlignment="Top" Width="118" Height="27"/>
+
+    </Grid>
+</Window>

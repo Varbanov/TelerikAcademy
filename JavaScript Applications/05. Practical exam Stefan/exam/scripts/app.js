@@ -36,6 +36,7 @@ require(['jquery', 'sammy', 'httpRequestModule', 'datasorter', 'template-rendere
         })
 
         this.get('#/register', function () {
+            
             var userName = $('#name').val();
             var pass = $('#password').val();
             var user = {

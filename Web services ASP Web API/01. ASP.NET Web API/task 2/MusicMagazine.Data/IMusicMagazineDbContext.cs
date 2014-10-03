@@ -1,0 +1,22 @@
+﻿namespace MusicMagazine.Data
+{
+    using MusicMagazine.Model;
+    using System.Data.Entity;
+    using System.Data.Entity.Infrastructure;
+
+   public interface IMusicMagazineDbContext
+    {
+        IDbSet<Artist> Artists { get; set; }
+
+        IDbSet<Album> Albums { get; set; }
+
+        IDbSet<Song> Songs { get; set; }
+
+        void SaveChanges();
+
+        IDbSet<TEntity> Set<TEntity>() where TEntity : class;
+
+        DbEntityEntry<TEntity> Entry<TEntity>(TEntity Entity) where TEntity : class;
+        
+    }
+}

@@ -1,0 +1,46 @@
+﻿@using ForumSystem.Web.Areas.Administration.ViewModels
+@model PostViewModel
+
+@{
+    ViewBag.Title = "Administration Posts";
+    const string ControllerName = "Posts";
+}
+
+<h2>Posts</h2>
+
+
+@(Html.Kendo()
+        .Grid<PostViewModel>()
+    .Name("grid")
+    .DataSource(data =>
+            data
+            .Ajax()
+            .Model(m => m.Id(user => user.Id))
+            .PageSize(50)
+            .Read(read => read.Action("GetPosts", ControllerName))
+            .Create(create => create.Action("Create", ControllerName))
+            .Update(update => update.Action("Update", ControllerName))
+            .Destroy(destroy => destroy.Action("Destroy", ControllerName)))
+        .Columns(columns =>
+        {
+            columns.Bound(pr => pr.Id);
+            columns.Bound(pr => pr.Author);
+            columns.Bound(pr => pr.Title); //.ClientTemplate("<a href=''>#= PersonalNumber #</a>");
+            columns.Bound(pr => pr.Content);
+            columns.Bound(pr => pr.ModifiedOn);
+            columns.Bound(pr => pr.IsDeleted);
+            columns.Command(com => com.Edit()).Title("Edit");
+            columns.Command(com => com.Destroy()).Title("Delete");
+
+        })
+            .Sortable()
+            .Filterable()
+            .Pageable(pageable => pageable.ButtonCount(10).Refresh(true))
+            .Filterable()
+            .Editable(edit =>
+                {
+                    edit.Mode(GridEditMode.PopUp);
+                })
+            .ToolBar(toolbar => toolbar.Create())
+    )
+

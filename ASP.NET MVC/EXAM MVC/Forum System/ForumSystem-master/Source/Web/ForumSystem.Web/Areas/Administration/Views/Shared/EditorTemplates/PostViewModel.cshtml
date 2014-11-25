@@ -1,0 +1,21 @@
+﻿@using ForumSystem.Web.Areas.Administration.ViewModels
+@model PostViewModel
+
+<div class="row">
+    <div class="col-md-1">
+        @*@Html.DisplayFor(x => x.Title)*@
+        Title
+    </div>
+    <div class="col-md-4">
+        @Html.EditorFor(x => x.Title)
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-1">
+        Content
+    </div>
+    <div class="col-md-4">
+        @Html.EditorFor(x => x.Content)
+    </div>
+</div>
+

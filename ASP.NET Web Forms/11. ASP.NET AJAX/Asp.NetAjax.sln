@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.NorthwindEmployeesAjax", "01.NorthwindEmployeesAjax\01.NorthwindEmployeesAjax.csproj", "{FB49E9A7-9606-47E6-9606-0576B80B9691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Messages", "02.Messages\02.Messages.csproj", "{52351D9B-B93F-44B5-9702-75E2B22F978E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB49E9A7-9606-47E6-9606-0576B80B9691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB49E9A7-9606-47E6-9606-0576B80B9691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB49E9A7-9606-47E6-9606-0576B80B9691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB49E9A7-9606-47E6-9606-0576B80B9691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52351D9B-B93F-44B5-9702-75E2B22F978E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52351D9B-B93F-44B5-9702-75E2B22F978E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52351D9B-B93F-44B5-9702-75E2B22F978E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52351D9B-B93F-44B5-9702-75E2B22F978E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
